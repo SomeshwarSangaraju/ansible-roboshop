@@ -1,0 +1,4 @@
+- name: mongodb playbook
+  hosts: mongodb
+  become: true
+  
