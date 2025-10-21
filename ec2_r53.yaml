@@ -1,13 +1,14 @@
 - name: create ec2 instance and r53 record
   hosts: localhost
   connection: local
+  become: yes
   vars:
     ami_id: "ami-09c813fb71547fc4f"
     sg_id: "sg-05fa4b70472fe3598"
     zone_id: "Z01824022CI9F0U27UQFL"
     domain_name: "someshwar.fun"
-    instances:
-    - catalogue
+    # instances:
+    # - catalogue
     #   - mongodb
       # - mysql
   tasks:
