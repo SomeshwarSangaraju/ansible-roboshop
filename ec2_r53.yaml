@@ -14,9 +14,9 @@
     #   - mongodb
     # - mysql
     # - shipping
-    # - payment
+    - payment
     # - dispatch
-    - rabbitmq
+    # - rabbitmq
     # - frontend
   tasks:
   - name: create ec2 instance
