@@ -63,7 +63,7 @@
 
   - name: install mongodb client
     ansible.builtin.package:
-      name: mongodb-mongosh -y
+      name: mongodb-mongosh
       state: present
   
   - name: connnect to mongodb catalogue
