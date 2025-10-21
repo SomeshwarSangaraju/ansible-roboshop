@@ -8,11 +8,11 @@
     domain_name: "someshwar.fun"
     instances:
     # - user
-    - cart
+    # - cart
     # - catalogue
     # - redis
     #   - mongodb
-      # - mysql
+    - mysql
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
