@@ -62,9 +62,6 @@
 #       state: started
 #       daemon_reload: true
 
-
-  
-  
 - name: setup cart server
   hosts: cart
   become: yes
