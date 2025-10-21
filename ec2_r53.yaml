@@ -7,8 +7,9 @@
     zone_id: "Z01824022CI9F0U27UQFL"
     domain_name: "someshwar.fun"
     instances:
+    - user
     # - catalogue
-    - redis
+    # - redis
     #   - mongodb
       # - mysql
   tasks:
