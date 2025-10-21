@@ -6,7 +6,7 @@
     sg_id: "sg-05fa4b70472fe3598"
     zone_id: "Z01824022CI9F0U27UQFL"
     domain_name: "someshwar.fun"
-    instances:
+    # instances: we can pass instances through commandline
     # - user
     # - cart
     # - catalogue
@@ -14,7 +14,7 @@
     #   - mongodb
     # - mysql
     # - shipping
-    - payment
+    # - payment
     # - dispatch
     # - rabbitmq
     # - frontend
