@@ -19,6 +19,7 @@
       comment: "roboshop system user"
       shell: /sbin/nologin
       home: /app
+      system: true
   
   - name: delete app directory
     ansible.builtin.file:
@@ -46,7 +47,7 @@
       dest: /app
       remote_src: yes
   
-  - name: Install nodejs
+  - name: Install nodejs dependencies
     community.general.npm:
       path: /app
 
