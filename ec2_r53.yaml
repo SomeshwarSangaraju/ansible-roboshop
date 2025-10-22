@@ -3,7 +3,7 @@
   connection: local
   vars:
     ami_id: "ami-09c813fb71547fc4f"
-    sg_id: "sg-033e6c5568c088815"
+    sg_id: "sg-0f75ede917b071fbe"
     zone_id: "Z01824022CI9F0U27UQFL"
     domain_name: "someshwar.fun"
     # instances: we can pass instances through commandline
