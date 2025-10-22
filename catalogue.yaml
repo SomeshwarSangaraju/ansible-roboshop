@@ -1,6 +1,6 @@
 - name: catalogue setup
   hosts: catalogue
-  become: true
+  become: yes
   tasks:
   - name: disable nodejs module
     ansible.builtin.command: dnf module disable nodejs -y
@@ -28,8 +28,8 @@
   
   - name: create app directory
     ansible.builtin.file:
-      path: /app
       state: directory
+      path: /app
 
   - name: remove catalogue file
     ansible.builtin.file:
